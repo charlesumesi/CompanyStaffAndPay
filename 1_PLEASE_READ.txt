@@ -1,6 +1,6 @@
 NOTE: The Python program 'CompanyStaffAndPay.py' comes with Excel files for demonstration purposes. 
 The Excel files contain entirely fictitious data (the names of 'employees' are also entirely fictitious).
-A total of 14 Excel files have been Name of accompanying Excel file included with the program:
+A total of 14 Excel files have been included with the program.
 Department1_Hourly.xlsx
 Department2_Hourly.xlsx
 Department3_Hourly.xlsx

@@ -11,24 +11,11 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 class Company:
     
-    '''Program for managing payment requirements of employees in a larger company (typically hundreds of employees)'''
+    '''A class that accepts and merges payment requirements from numerous departments into a single document for a company'''
     
-    '''Initiating the classes managed by Company'''
-    
+    #Initiating the classes managed by Company
     def __init__(self):
         self.employee = self.Employee()
         self.hourlyemployee = self.HourlyEmployee()
         self.salariedemployee = self.SalariedEmployee()
-        self.manager = self.Manager()
-        self.executive = self.Executive()
-        self.conclusion = self.Conclusion()
-        
-    '''Abstract class'''
-
-    class Employee(ABC):
-        
-        def determination_of_pay(self):
-            pass  
-    
-    '''Subclasses'''
     ...

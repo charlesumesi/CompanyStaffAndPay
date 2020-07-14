@@ -1,5 +1,5 @@
 # CompanyStaffAndPay
-A Python program that can manage and merge payment requests from different classes of employees from different departments in a company
+A Python class that can manage and merge payment requests from different classes of employees from different departments in a company
 ```python
 from abc import ABC, abstractmethod
 import pandas as pd

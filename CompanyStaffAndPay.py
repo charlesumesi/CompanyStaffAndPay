@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on 29 June 2020
-
+Name: CompanyStaffAndPay.py
+Purpose: Accepts and merges payment requirements from numerous departments into a single document for a company
 @author: Charles Umesi
 """
 
@@ -15,10 +16,9 @@ pd.options.mode.chained_assignment = None  # default='warn'
 
 class Company:
     
-    '''Program for managing payment requirements of employees in a larger company (typically hundreds of employees)'''
+    '''A class that accepts and merges payment requirements from numerous departments into a single document for a company'''
     
-    '''Initiating the classes managed by Company'''
-    
+    #Initiating the classes managed by Company
     def __init__(self):
         self.employee = self.Employee()
         self.hourlyemployee = self.HourlyEmployee()

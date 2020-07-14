@@ -3,7 +3,7 @@
 Created on 29 June 2020
 Name: CompanyStaffAndPay.py
 Purpose: Accepts and merges payment requirements from numerous departments into a single document for a company
-@author: Charles Umesi
+@author: Charles Umesi (charlesumesi)
 """
 
 from abc import ABC, abstractmethod
